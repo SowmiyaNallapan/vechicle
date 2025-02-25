@@ -1,11 +1,12 @@
-import React from "react";
-import Register from "./Register";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Register from './Register';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Register />
-    </div>
+    </BrowserRouter>
   );
 }
 
